@@ -1,0 +1,34 @@
+{
+  "env": {
+    "OTEL_RESOURCE_ATTRIBUTES": "repo=AXiom"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(gh:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git checkout:*)",
+      "Bash(git switch:*)",
+      "Bash(git fetch:*)",
+      "Bash(git pull:*)",
+      "Bash(git worktree:*)",
+      "Bash(git rev-parse:*)"
+    ],
+    "deny": [
+      "Read(**/.env)",
+      "Read(**/.env.*)",
+      "Read(**/*.key)",
+      "Read(**/*.pem)"
+    ]
+  },
+  "extraKnownMarketplaces": {
+    "air-harness": {
+      "source": { "source": "github", "repo": "ErnsetAirapetov/air-harness" }
+    }
+  },
+  "enabledPlugins": { "harness-core@air-harness": true }
+}

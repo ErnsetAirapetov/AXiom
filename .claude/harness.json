@@ -1,0 +1,15 @@
+{
+  "mainBranch": "main",
+  "ownerEmail": "aes@bkn-spb.ru",
+  "worktreeDir": ".claude/worktrees",
+  "protectedBranches": ["__research-stage-no-protection__"],
+  "checks": [],
+  "editChecks": [],
+  "models": {
+    "impl": { "S": "sonnet", "M": "opus", "L": "opus" },
+    "reviewer": "opus",
+    "groomer": "sonnet",
+    "scaffolder": "sonnet"
+  },
+  "strict": false
+}
