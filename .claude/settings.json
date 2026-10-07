@@ -1,6 +1,6 @@
 {
   "env": {
-    "OTEL_RESOURCE_ATTRIBUTES": "repo=AXiom"
+    "OTEL_METRICS_INCLUDE_REPOSITORY": "true"
   },
   "permissions": {
     "allow": [
